@@ -1,0 +1,219 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    background: url("../image/pexel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1em;
+
+    animation-name: background;
+    animation-duration: 23s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+@keyframes background{
+    0%{
+        background: url(../image/pexel.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    20%{
+        background: url(../image/waller3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    40%{
+        background: url(../image/controller.jpg);
+        /* background-repeat: no-repeat; */
+        background-size: cover;
+    }
+    60%{
+        background: url(../image/waller1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    80%{
+        background: url(../image/waller.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%{
+        background: url(../image/controller.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+body::befor{
+    content: "";
+    position: absolute;
+    left: 955px;
+    width: 30%;
+    height: 86vh;
+    top: 90px;
+    background: linear-gradient(rgba(179, 171, 171, 0.637), rgba(211, 201, 201, 0.712));
+}
+.nav-link{
+    color: crimson !important;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: rgb(253, 7, 52) !important;
+}
+.navbar-brand img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    /* margin-right: 20px; */
+}
+.play{
+    border-radius: 35px !important;
+    background-color: crimson !important;
+    color: #F9F9F9 !important;
+    border: none !important;
+    outline: none !important;
+    cursor: pointer;
+}
+.play:hover{
+    background-color: rgb(253, 7, 52) !important;
+}
+.text{
+    font-size: 18px;
+}
+.part-1{
+    color: white;
+    position: relative;
+}
+.part-1 h2 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.part-2{
+    margin-top: -200px;
+}
+.part-2 img{
+    width: 200px;
+    height: auto;
+}
+.part-2 div{
+    color: white;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.fa-star{
+    color: gold;
+}
+#buy{
+    width: 150px;
+    height: 40px;
+    /* margin-left: 100px; */
+    margin-top: 5px;
+    background-color: crimson;
+    color: #F9F9F9;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+#buy:hover{
+    /* padding: 1em; */
+    transform: scale(90%);
+}
+.icons{
+    width: 25%;
+    margin-top: 70px;
+    color: white;
+}
+i{
+    cursor: pointer;
+}
+i:hover{
+    color: crimson;
+}
+.fa-facebook-square{
+    color: crimson;
+}
+
+@media (max-width: 768px){
+    .part-1{
+        flex-direction: column !important;
+    }
+    .part-1 img{
+        display: none;
+    }
+    .part-2{
+        width: 100% !important;
+    }
+    .texts{
+        font-size: 13px !important;
+        margin-left: 20px !important;
+    }
+    .text1{
+        font-size: 25px !important;
+    }
+    .navbar-brand img{
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+    }
+    .nav-link{
+        font-size: 12px;
+    }
+    .part-2{
+        margin-top: 0px !important;
+    }
+    .play{
+        border-radius: 5px !important;
+        font-size: 10px !important;
+    }
+    .icons{
+        width: 100% !important;
+    }
+    body{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        position: relative;
+        background: url("../image/pexel.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 1em;
+/*     
+        animation-name: background;
+        animation-duration: 23s;
+        animation-iteration-count: infinite;
+        animation-play-state: running;
+        animation-timing-function: ease-in-out; */
+    }
+    /* @keyframes background{
+        0%{
+            background: url(../image/pexel.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        20%{
+            background: url(../image/waller3.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        40%{
+            background: url(../image/controller.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        60%{
+            background: url(../image/waller1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        80%{
+            background: url(../image/waller.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        100%{
+            background: url(../image/controller.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    } */
+}
